@@ -1,0 +1,30 @@
+{
+  "name": "newsroom-frontend-test-2.0",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A TypeScript-powered web application that enables users to search for country information using a public API",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/telegraph/newsroom-frontend-test-2.0.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/telegraph/newsroom-frontend-test-2.0/issues"
+  },
+  "homepage": "https://github.com/telegraph/newsroom-frontend-test-2.0#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.12",
+    "vitest": "^1.2.1"
+  }
+}
