@@ -23,10 +23,10 @@ Country Search App with TypeScript
    - Implement TypeScript module (`api.service.ts`) for handling API requests. Include static typing using interfaces or types.
 
 3. **User Input Validation:**
-   - Validate user input to ensure it is not empty and contains only valid characters (alphabets and spaces).
+   - Validate user input.
 
 4. **Error Handling:**
-   - Gracefully handle errors, especially in cases where the API returns a 404 status due to an invalid country name.
+   - Gracefully handle errors.
 
 5. **Test-Driven Development (TDD):**
    - Create Jest test files (`api.service.test.ts`) to cover the API service and the main application logic.

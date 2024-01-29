@@ -7,7 +7,28 @@
     <title>Newsroom Frontend Test 2.0</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <div>
+        <h1>Country Information Search</h1>
+      </div>
+      <div>
+        <input type="text" id="search-input" />
+        <button type="button" id="search-button">Search</button>
+      </div>
+      <div>
+        <table id="table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Capital</th>
+              <th>Currency</th>
+              <th>Flag</th>
+            </tr>
+          </thead>
+          <tbody id="table-tbody"></tbody>
+        </table>
+      </div>
+    </div>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
