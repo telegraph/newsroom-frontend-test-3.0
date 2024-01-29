@@ -49,8 +49,8 @@ Vite requires Node.js version 18+. 20+.
 
 ### Install :hammer_and_wrench:
 
-    $ git clone https://github.com/telegraph/newsroom-frontend-test-2.0.git
-    $ cd newsroom-frontend-test-2.0/
+    $ git clone https://github.com/telegraph/newsroom-frontend-test-3.0.git
+    $ cd newsroom-frontend-test-3.0/
     $ npm install
 
 ### Run :rocket:
